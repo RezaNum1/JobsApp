@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="@color/color_2"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/color_2"
+            android:text="Software Enginner"
+
+            />
+
+        <TextView
+            android:id="@+id/textNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/color_3"
+            android:text="Google Inc"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/color_3"
+            android:text="Jakarta"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/textTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/color_4"
+            android:lineSpacingExtra="2dp"
+            android:text="Kamis, 08/05/2019"
+            android:layout_marginTop="70dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
